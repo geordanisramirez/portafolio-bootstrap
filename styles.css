@@ -9,5 +9,16 @@
 .hero-image {
   padding: 64px 16px 64px 16px;
 }
-.img-pic {
+.badge {
+  width: 200px;
+  height: 200px;
+}
+.gray-50 {
+  color: #f9fafb;
+}
+.gray-200 {
+  color: #e5e7eb;
+}
+.gray-600 {
+  color: #4b5563;
 }
