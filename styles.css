@@ -33,7 +33,15 @@
   padding: 2rem;
   background-color: #e5e7eb;
 }
-.navbar-collapse {
-  align-items: center;
-  justify-content: space-between;
+#miElemento {
+  /* Estilos para pantallas grandes o todas las pantallas */
+}
+
+@media screen and (max-width: 600px) {
+  .sol {
+    display: none; /* Oculta el elemento en pantallas más pequeñas que 600px */
+  }
+  .btn {
+    display: none;
+  }
 }

@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler position-absolute top-0 end-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarToggler"
@@ -37,10 +37,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-space-between"
+          class="collapse navbar-collapse"
+          style="justify-content: space-between"
           id="navbarToggler"
         >
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand visibility" href="#">
             <img src="assets/SS.png" width="" alt="logo" />
           </a>
           <ul
@@ -60,6 +61,21 @@
             </li>
           </ul>
         </div>
+        <div class="row">
+          <img
+            class="divider ml-5"
+            src="assets/Divider.png"
+            alt=""
+            width="px"
+            height="30px"
+          />
+        </div>
+        <div class="sol display-none">
+          <img class="solcito p-3" src="assets/Icon.png" alt="" />
+        </div>
+        <button type="button " class="btn btn-dark rounded-pill">
+          Download CV
+        </button>
       </div>
     </nav>
     <section
