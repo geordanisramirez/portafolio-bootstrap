@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-.i {
-  width: 24px;
-  height: 24px;
-  color: #4b5563;
-}
+
 .defaul {
   color: #ffffff;
 }
@@ -33,7 +29,3 @@
   padding: 2rem;
   background-color: #e5e7eb;
 }
-/*.navbar-collapse {
-  align-items: center;
-  justify-content: space-between;
-}*/

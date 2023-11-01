@@ -11,11 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geordanis Ramirez \ Portafolio-bootstrap</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
@@ -23,69 +24,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md grey-50">
       <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/SS.png" alt="" />
+        </a>
         <button
-          class="navbar-toggler position-absolute top-0 end-0"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarToggler"
-          aria-controls="navbarToggler"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="navbar-collapse"
-          style="justify-content: space-between"
-          id="navbarToggler"
+          class="collapse navbar-collapse justify-content-end m"
+          id="navbarNavAltMarkup"
         >
-          <a class="navbar-brand" href="#">
-            <img class="img-logo" src="assets/SS.png" width="" alt="logo" />
-          </a>
-          <ul
-            class="navbar-nav di-flex justify-content-center align-items-center m-3 p-3"
-          >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Coctact</a>
-            </li>
-          </ul>
-          <img
-            class="divider ml-5"
-            src="assets/Divider.png"
-            alt=""
-            width="px"
-            height="30px"
-          />
-          <img class="img-icon" src="assets/Icon.png" alt="" />
-          <button type="button " class="btn btn-dark rounded-pill">
-            Download CV
-          </button>
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">About me</a>
+            <a class="nav-link" href="#">Works</a>
+            <a class="nav-link" href="#">Testimonial</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+          <div>
+            <img class="divider" src="assets/Divider.png" alt="" />
+          </div>
+          <div class="sol-icon">
+            <img src="assets/Icon.png" alt="" />
+          </div>
+          <div class="btn-dowload">
+            <button type="button" class="btn btn-dark">Donwload CV</button>
+          </div>
         </div>
       </div>
     </nav>
     <section
-      class="row hero-image container-fluid di-flex justify-content-center text-center"
+      class="row hero-image container-fluid di-flex justify-content-center aling-items-center text-center mt-5"
     >
       <div>
         <img
-          class="img-pic m-5 di-flex justify-content-center"
+          class="img-pic col col-sm-10 col-md-6 col-lg-6 di-flex justify-content-center"
           src="assets/pic.png"
           alt=""
         />
       </div>
       <div class="title col">
-        <div class="h1 col-12 text-start m-3">
+        <div class="h1 col-sm-12 text-start m-3">
           <h1>Hi, I’m Sagar 👋</h1>
         </div>
         <div class="body-2 col-12 text-start m-3">
@@ -99,16 +87,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col col-12 text-start m-3">
+        <div class="col col-12 text-start ml-3 mt-3">
           <i class="bi bi-geo-alt"></i> Ahmedabad, India
         </div>
       </div>
       <div class="row pt-2">
-        <div class="col col-12 text-start emerald-500 m-3">
-          <i class="bi bi-dot"></i> Available for new projects
+        <div class="col col-12 text-start ml-3 mt-1">
+          <i class="bi bi-dot emerald-500"></i> Available for new projects
         </div>
       </div>
-      <div class="row m-3">
+      <div class="row m-3 mt-5">
         <div class="col col-1"><i class="bi bi-github"></i></div>
         <div class="col col-1"><i class="bi bi-twitter"></i></div>
         <div class="col col-1">
@@ -125,18 +113,18 @@
       <div class="img-pic col col-12">
         <img src="assets/picture.png" alt="" />
       </div>
-      <div class="h3 col col-12">
+      <div class="h3 col col-10">
         <h3>Curious about me? Here you have it:</h3>
       </div>
-      <div class="body-2 col col-12">
-        <p class="parrafo col col-sm-12 col-lg-6">
+      <div class="body-2 col col-11 mr-2 ml-2">
+        <p class="parrafo col col-sm-12 col-lg-6 text-start">
           I'm a passionate, self-proclaimed designer who specializes in full
           stack development (React.js & Node.js). I am very enthusiastic about
           bringing the technical and visual aspects of digital products to life.
           User experience, pixel perfect design, and writing clear, readable,
           highly performant code matters to me.
         </p>
-        <p class="parrafo col col-sm-12 col-lg-6">
+        <p class="parrafo col col-sm-12 col-lg-6 text-start">
           I began my journey as a web developer in 2015, and since then, I've
           continued to grow and evolve as a developer, taking on new challenges
           and learning the latest technologies along the way. Now, in my early
@@ -144,35 +132,37 @@
           building cutting-edge web applications using modern technologies such
           as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
         </p>
-        <p class="parrafo col col-sm-12 col-lg-6">
+        <p class="parrafo col col-sm-12 col-lg-6 text-start">
           I am very much a progressive thinker and enjoy working on products end
           to end, from ideation all the way to development.
         </p>
-        <p class="parrafo col col-sm-12 col-lg-6">
+        <p class="parrafo col col-sm-12 col-lg-6 text-start">
           When I'm not in full-on developer mode, you can find me hovering
           around on twitter or on indie hacker, witnessing the journey of early
           startups or enjoying some free time. You can follow me on Twitter
           where I share tech-related bites and build in public, or you can
           follow me on GitHub.
         </p>
-        <p class="parrafo col col-sm-12 col-lg-6">
+        <p class="parrafo col col-sm-12 col-lg-6 text-start">
           Finally, some quick bits about me.
         </p>
       </div>
-      <div class="row col-sm-12">
-        <div class="col">
+      <div class="row col-sm-12 text-start">
+        <div class="col col-sm-12 text-start">
           <ul>
-            <li class="col">B.E. in Computer Engineering</li>
-            <li class="col">Full time freelancer</li>
+            <li class="col col-sm-12 text-start">
+              B.E. in Computer Engineering
+            </li>
+            <li class="col col-sm-12 text-start">Full time freelancer</li>
           </ul>
         </div>
         <div class="col text-gray-600">
           <ul>
-            <li class="col">Avid learner</li>
-            <li class="col text-gray-600">Aspiring indie hacker</li>
+            <li class="col text-start">Avid learner</li>
+            <li class="col text-gray-600 text-start">Aspiring indie hacker</li>
           </ul>
         </div>
-        <div class="">
+        <div class="col-sm-12 text-start">
           <p class="">
             One last thing, I'm available for freelance work, so feel free to
             reach out and say hello! I promise I don't bite 😉
@@ -181,8 +171,8 @@
       </div>
     </section>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
   </body>
