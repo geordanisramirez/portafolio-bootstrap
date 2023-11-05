@@ -1,40 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-
-.defaul {
-  color: #ffffff;
+html {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  text-align: start;
+  margin-left: 45px;
+}
+.navbar {
+  padding: 2rem;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+.parrafo {
+  text-align: start;
+  margin-left: 45px;
+}
+.direccion {
+  text-align: start;
+  margin-left: 45px;
+}
+.proyecto {
+  margin-left: 45px;
 }
 .emerald-500 {
   color: #10b981;
 }
-.hero-image {
-  padding: 64px 16px 64px 16px;
-}
-.badge {
-  width: 200px;
-  height: 200px;
-}
-.grey-50 {
-  color: #f9fafb;
-}
-.grey-200 {
-  color: #e5e7eb;
-}
 .grey-600 {
   color: #4b5563;
 }
-.grey-950 {
-  color: #030712;
-}
-.navbar {
-  padding: 2rem;
-  background-color: #e5e7eb;
-}
-/*.row {
-  /* border-radius: 12px;
-  background-color: #e5e7eb;
-}*/
-.imagen-user {
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
+.icon-redes {
+  margin-left: 45px;
 }
